@@ -5,9 +5,9 @@ Udacity Deep Reinforcement Learning Nanodegree Project 2 repository
 ---
 
 ## Project Details
-The goal of this project is to ...
+The goal of this project is to train a double jointed arm to move to and stay within a target location. We are provided two environments; one with a singular robot arm and one with 20 robots interacting concurrently.
 
-The state space for this environment is ...
+The state space for this environment consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm.
 
 The action space for each agent is a vector of length 4. The values are continous torques that can be applied to the arms of the robot and are bounding to the (-1, 1) range. 
 
